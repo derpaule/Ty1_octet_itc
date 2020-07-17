@@ -3,7 +3,7 @@ title: 'Octet and ITC data analysis of Ty1:RBD interaction '
 author: '[Tim Schulte]'
 description: 'Analysis of ITC/Octet data associated with the ms: An alpaca nanobody
   neutralizes SARS-CoV-2 by blocking receptor interaction '
-documentclass: book
+#documentclass: book
 site: bookdown::bookdown_site
 bibliography: Ty1.bib
 url: https://www.biorxiv.org/content/10.1101/2020.06.02.130161v1
