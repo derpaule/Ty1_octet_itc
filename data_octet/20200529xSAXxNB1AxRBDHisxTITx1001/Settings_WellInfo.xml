@@ -1,0 +1,3275 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <SamplePlate_K>
+    <WellNumber>1</WellNumber>
+    <WellLocation>A1</WellLocation>
+    <N>0</N>
+    <Row>1</Row>
+    <Column>1</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>2</WellNumber>
+    <WellLocation>B1</WellLocation>
+    <N>1</N>
+    <Row>2</Row>
+    <Column>1</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>3</WellNumber>
+    <WellLocation>C1</WellLocation>
+    <N>2</N>
+    <Row>3</Row>
+    <Column>1</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>4</WellNumber>
+    <WellLocation>D1</WellLocation>
+    <N>3</N>
+    <Row>4</Row>
+    <Column>1</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>5</WellNumber>
+    <WellLocation>E1</WellLocation>
+    <N>4</N>
+    <Row>5</Row>
+    <Column>1</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>6</WellNumber>
+    <WellLocation>F1</WellLocation>
+    <N>5</N>
+    <Row>6</Row>
+    <Column>1</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>7</WellNumber>
+    <WellLocation>G1</WellLocation>
+    <N>6</N>
+    <Row>7</Row>
+    <Column>1</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>8</WellNumber>
+    <WellLocation>H1</WellLocation>
+    <N>7</N>
+    <Row>8</Row>
+    <Column>1</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>9</WellNumber>
+    <WellLocation>A2</WellLocation>
+    <N>8</N>
+    <Row>1</Row>
+    <Column>2</Column>
+    <Type>Load</Type>
+    <ID>1A</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>10</WellNumber>
+    <WellLocation>B2</WellLocation>
+    <N>9</N>
+    <Row>2</Row>
+    <Column>2</Column>
+    <Type>Load</Type>
+    <ID>1A</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>11</WellNumber>
+    <WellLocation>C2</WellLocation>
+    <N>10</N>
+    <Row>3</Row>
+    <Column>2</Column>
+    <Type>Load</Type>
+    <ID>1A</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>12</WellNumber>
+    <WellLocation>D2</WellLocation>
+    <N>11</N>
+    <Row>4</Row>
+    <Column>2</Column>
+    <Type>Load</Type>
+    <ID>1A</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>13</WellNumber>
+    <WellLocation>E2</WellLocation>
+    <N>12</N>
+    <Row>5</Row>
+    <Column>2</Column>
+    <Type>Load</Type>
+    <ID>1A</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>14</WellNumber>
+    <WellLocation>F2</WellLocation>
+    <N>13</N>
+    <Row>6</Row>
+    <Column>2</Column>
+    <Type>Load</Type>
+    <ID>1A</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>15</WellNumber>
+    <WellLocation>G2</WellLocation>
+    <N>14</N>
+    <Row>7</Row>
+    <Column>2</Column>
+    <Type>Load</Type>
+    <ID>1A</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>16</WellNumber>
+    <WellLocation>H2</WellLocation>
+    <N>15</N>
+    <Row>8</Row>
+    <Column>2</Column>
+    <Type>Load</Type>
+    <ID>1A</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>17</WellNumber>
+    <WellLocation>A3</WellLocation>
+    <N>16</N>
+    <Row>1</Row>
+    <Column>3</Column>
+    <Type>Quench</Type>
+    <ID>biocytin</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>18</WellNumber>
+    <WellLocation>B3</WellLocation>
+    <N>17</N>
+    <Row>2</Row>
+    <Column>3</Column>
+    <Type>Quench</Type>
+    <ID>biocytin</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>19</WellNumber>
+    <WellLocation>C3</WellLocation>
+    <N>18</N>
+    <Row>3</Row>
+    <Column>3</Column>
+    <Type>Quench</Type>
+    <ID>biocytin</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>20</WellNumber>
+    <WellLocation>D3</WellLocation>
+    <N>19</N>
+    <Row>4</Row>
+    <Column>3</Column>
+    <Type>Quench</Type>
+    <ID>biocytin</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>21</WellNumber>
+    <WellLocation>E3</WellLocation>
+    <N>20</N>
+    <Row>5</Row>
+    <Column>3</Column>
+    <Type>Quench</Type>
+    <ID>biocytin</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>22</WellNumber>
+    <WellLocation>F3</WellLocation>
+    <N>21</N>
+    <Row>6</Row>
+    <Column>3</Column>
+    <Type>Quench</Type>
+    <ID>biocytin</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>23</WellNumber>
+    <WellLocation>G3</WellLocation>
+    <N>22</N>
+    <Row>7</Row>
+    <Column>3</Column>
+    <Type>Quench</Type>
+    <ID>biocytin</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>24</WellNumber>
+    <WellLocation>H3</WellLocation>
+    <N>23</N>
+    <Row>8</Row>
+    <Column>3</Column>
+    <Type>Quench</Type>
+    <ID>biocytin</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>25</WellNumber>
+    <WellLocation>A4</WellLocation>
+    <N>24</N>
+    <Row>1</Row>
+    <Column>4</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>26</WellNumber>
+    <WellLocation>B4</WellLocation>
+    <N>25</N>
+    <Row>2</Row>
+    <Column>4</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>27</WellNumber>
+    <WellLocation>C4</WellLocation>
+    <N>26</N>
+    <Row>3</Row>
+    <Column>4</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>28</WellNumber>
+    <WellLocation>D4</WellLocation>
+    <N>27</N>
+    <Row>4</Row>
+    <Column>4</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>29</WellNumber>
+    <WellLocation>E4</WellLocation>
+    <N>28</N>
+    <Row>5</Row>
+    <Column>4</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>30</WellNumber>
+    <WellLocation>F4</WellLocation>
+    <N>29</N>
+    <Row>6</Row>
+    <Column>4</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>31</WellNumber>
+    <WellLocation>G4</WellLocation>
+    <N>30</N>
+    <Row>7</Row>
+    <Column>4</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>32</WellNumber>
+    <WellLocation>H4</WellLocation>
+    <N>31</N>
+    <Row>8</Row>
+    <Column>4</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>33</WellNumber>
+    <WellLocation>A5</WellLocation>
+    <N>32</N>
+    <Row>1</Row>
+    <Column>5</Column>
+    <Type>Sample</Type>
+    <ID>RBD</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>183</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>34</WellNumber>
+    <WellLocation>B5</WellLocation>
+    <N>33</N>
+    <Row>2</Row>
+    <Column>5</Column>
+    <Type>Sample</Type>
+    <ID>RBD</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>91.5</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>35</WellNumber>
+    <WellLocation>C5</WellLocation>
+    <N>34</N>
+    <Row>3</Row>
+    <Column>5</Column>
+    <Type>Sample</Type>
+    <ID>RBD</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>45.8</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>36</WellNumber>
+    <WellLocation>D5</WellLocation>
+    <N>35</N>
+    <Row>4</Row>
+    <Column>5</Column>
+    <Type>Sample</Type>
+    <ID>RBD</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>22.9</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>37</WellNumber>
+    <WellLocation>E5</WellLocation>
+    <N>36</N>
+    <Row>5</Row>
+    <Column>5</Column>
+    <Type>Sample</Type>
+    <ID>RBD</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>11.4</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>38</WellNumber>
+    <WellLocation>F5</WellLocation>
+    <N>37</N>
+    <Row>6</Row>
+    <Column>5</Column>
+    <Type>Sample</Type>
+    <ID>RBD</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>5.7</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>39</WellNumber>
+    <WellLocation>G5</WellLocation>
+    <N>38</N>
+    <Row>7</Row>
+    <Column>5</Column>
+    <Type>Sample</Type>
+    <ID>RBD</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>2.9</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>40</WellNumber>
+    <WellLocation>H5</WellLocation>
+    <N>39</N>
+    <Row>8</Row>
+    <Column>5</Column>
+    <Type>Reference Well</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>0</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>41</WellNumber>
+    <WellLocation>A6</WellLocation>
+    <N>40</N>
+    <Row>1</Row>
+    <Column>6</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>42</WellNumber>
+    <WellLocation>B6</WellLocation>
+    <N>41</N>
+    <Row>2</Row>
+    <Column>6</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>43</WellNumber>
+    <WellLocation>C6</WellLocation>
+    <N>42</N>
+    <Row>3</Row>
+    <Column>6</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>44</WellNumber>
+    <WellLocation>D6</WellLocation>
+    <N>43</N>
+    <Row>4</Row>
+    <Column>6</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>45</WellNumber>
+    <WellLocation>E6</WellLocation>
+    <N>44</N>
+    <Row>5</Row>
+    <Column>6</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>46</WellNumber>
+    <WellLocation>F6</WellLocation>
+    <N>45</N>
+    <Row>6</Row>
+    <Column>6</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>47</WellNumber>
+    <WellLocation>G6</WellLocation>
+    <N>46</N>
+    <Row>7</Row>
+    <Column>6</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>48</WellNumber>
+    <WellLocation>H6</WellLocation>
+    <N>47</N>
+    <Row>8</Row>
+    <Column>6</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>49</WellNumber>
+    <WellLocation>A7</WellLocation>
+    <N>48</N>
+    <Row>1</Row>
+    <Column>7</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>50</WellNumber>
+    <WellLocation>B7</WellLocation>
+    <N>49</N>
+    <Row>2</Row>
+    <Column>7</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>51</WellNumber>
+    <WellLocation>C7</WellLocation>
+    <N>50</N>
+    <Row>3</Row>
+    <Column>7</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>52</WellNumber>
+    <WellLocation>D7</WellLocation>
+    <N>51</N>
+    <Row>4</Row>
+    <Column>7</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>53</WellNumber>
+    <WellLocation>E7</WellLocation>
+    <N>52</N>
+    <Row>5</Row>
+    <Column>7</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>54</WellNumber>
+    <WellLocation>F7</WellLocation>
+    <N>53</N>
+    <Row>6</Row>
+    <Column>7</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>55</WellNumber>
+    <WellLocation>G7</WellLocation>
+    <N>54</N>
+    <Row>7</Row>
+    <Column>7</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>56</WellNumber>
+    <WellLocation>H7</WellLocation>
+    <N>55</N>
+    <Row>8</Row>
+    <Column>7</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>57</WellNumber>
+    <WellLocation>A8</WellLocation>
+    <N>56</N>
+    <Row>1</Row>
+    <Column>8</Column>
+    <Type>Load</Type>
+    <ID>1A</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>58</WellNumber>
+    <WellLocation>B8</WellLocation>
+    <N>57</N>
+    <Row>2</Row>
+    <Column>8</Column>
+    <Type>Load</Type>
+    <ID>1A</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>59</WellNumber>
+    <WellLocation>C8</WellLocation>
+    <N>58</N>
+    <Row>3</Row>
+    <Column>8</Column>
+    <Type>Load</Type>
+    <ID>1A</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>60</WellNumber>
+    <WellLocation>D8</WellLocation>
+    <N>59</N>
+    <Row>4</Row>
+    <Column>8</Column>
+    <Type>Load</Type>
+    <ID>1A</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>61</WellNumber>
+    <WellLocation>E8</WellLocation>
+    <N>60</N>
+    <Row>5</Row>
+    <Column>8</Column>
+    <Type>Load</Type>
+    <ID>1A</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>62</WellNumber>
+    <WellLocation>F8</WellLocation>
+    <N>61</N>
+    <Row>6</Row>
+    <Column>8</Column>
+    <Type>Load</Type>
+    <ID>1A</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>63</WellNumber>
+    <WellLocation>G8</WellLocation>
+    <N>62</N>
+    <Row>7</Row>
+    <Column>8</Column>
+    <Type>Load</Type>
+    <ID>1A</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>64</WellNumber>
+    <WellLocation>H8</WellLocation>
+    <N>63</N>
+    <Row>8</Row>
+    <Column>8</Column>
+    <Type>Load</Type>
+    <ID>1A</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>65</WellNumber>
+    <WellLocation>A9</WellLocation>
+    <N>64</N>
+    <Row>1</Row>
+    <Column>9</Column>
+    <Type>Quench</Type>
+    <ID>biocytin</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>66</WellNumber>
+    <WellLocation>B9</WellLocation>
+    <N>65</N>
+    <Row>2</Row>
+    <Column>9</Column>
+    <Type>Quench</Type>
+    <ID>biocytin</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>67</WellNumber>
+    <WellLocation>C9</WellLocation>
+    <N>66</N>
+    <Row>3</Row>
+    <Column>9</Column>
+    <Type>Quench</Type>
+    <ID>biocytin</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>68</WellNumber>
+    <WellLocation>D9</WellLocation>
+    <N>67</N>
+    <Row>4</Row>
+    <Column>9</Column>
+    <Type>Quench</Type>
+    <ID>biocytin</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>69</WellNumber>
+    <WellLocation>E9</WellLocation>
+    <N>68</N>
+    <Row>5</Row>
+    <Column>9</Column>
+    <Type>Quench</Type>
+    <ID>biocytin</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>70</WellNumber>
+    <WellLocation>F9</WellLocation>
+    <N>69</N>
+    <Row>6</Row>
+    <Column>9</Column>
+    <Type>Quench</Type>
+    <ID>biocytin</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>71</WellNumber>
+    <WellLocation>G9</WellLocation>
+    <N>70</N>
+    <Row>7</Row>
+    <Column>9</Column>
+    <Type>Quench</Type>
+    <ID>biocytin</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>72</WellNumber>
+    <WellLocation>H9</WellLocation>
+    <N>71</N>
+    <Row>8</Row>
+    <Column>9</Column>
+    <Type>Quench</Type>
+    <ID>biocytin</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>73</WellNumber>
+    <WellLocation>A10</WellLocation>
+    <N>72</N>
+    <Row>1</Row>
+    <Column>10</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>74</WellNumber>
+    <WellLocation>B10</WellLocation>
+    <N>73</N>
+    <Row>2</Row>
+    <Column>10</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>75</WellNumber>
+    <WellLocation>C10</WellLocation>
+    <N>74</N>
+    <Row>3</Row>
+    <Column>10</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>76</WellNumber>
+    <WellLocation>D10</WellLocation>
+    <N>75</N>
+    <Row>4</Row>
+    <Column>10</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>77</WellNumber>
+    <WellLocation>E10</WellLocation>
+    <N>76</N>
+    <Row>5</Row>
+    <Column>10</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>78</WellNumber>
+    <WellLocation>F10</WellLocation>
+    <N>77</N>
+    <Row>6</Row>
+    <Column>10</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>79</WellNumber>
+    <WellLocation>G10</WellLocation>
+    <N>78</N>
+    <Row>7</Row>
+    <Column>10</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>80</WellNumber>
+    <WellLocation>H10</WellLocation>
+    <N>79</N>
+    <Row>8</Row>
+    <Column>10</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>81</WellNumber>
+    <WellLocation>A11</WellLocation>
+    <N>80</N>
+    <Row>1</Row>
+    <Column>11</Column>
+    <Type>Sample</Type>
+    <ID>RBD</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>275</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>82</WellNumber>
+    <WellLocation>B11</WellLocation>
+    <N>81</N>
+    <Row>2</Row>
+    <Column>11</Column>
+    <Type>Sample</Type>
+    <ID>RBD</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>91.7</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>83</WellNumber>
+    <WellLocation>C11</WellLocation>
+    <N>82</N>
+    <Row>3</Row>
+    <Column>11</Column>
+    <Type>Sample</Type>
+    <ID>RBD</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>30.6</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>84</WellNumber>
+    <WellLocation>D11</WellLocation>
+    <N>83</N>
+    <Row>4</Row>
+    <Column>11</Column>
+    <Type>Sample</Type>
+    <ID>RBD</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>10.2</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>85</WellNumber>
+    <WellLocation>E11</WellLocation>
+    <N>84</N>
+    <Row>5</Row>
+    <Column>11</Column>
+    <Type>Sample</Type>
+    <ID>RBD</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>3.4</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>86</WellNumber>
+    <WellLocation>F11</WellLocation>
+    <N>85</N>
+    <Row>6</Row>
+    <Column>11</Column>
+    <Type>Sample</Type>
+    <ID>RBD</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>1.1</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>87</WellNumber>
+    <WellLocation>G11</WellLocation>
+    <N>86</N>
+    <Row>7</Row>
+    <Column>11</Column>
+    <Type>Sample</Type>
+    <ID>RBD</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>0.38</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>88</WellNumber>
+    <WellLocation>H11</WellLocation>
+    <N>87</N>
+    <Row>8</Row>
+    <Column>11</Column>
+    <Type>Reference Well</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>0</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>89</WellNumber>
+    <WellLocation>A12</WellLocation>
+    <N>88</N>
+    <Row>1</Row>
+    <Column>12</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>90</WellNumber>
+    <WellLocation>B12</WellLocation>
+    <N>89</N>
+    <Row>2</Row>
+    <Column>12</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>91</WellNumber>
+    <WellLocation>C12</WellLocation>
+    <N>90</N>
+    <Row>3</Row>
+    <Column>12</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>92</WellNumber>
+    <WellLocation>D12</WellLocation>
+    <N>91</N>
+    <Row>4</Row>
+    <Column>12</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>93</WellNumber>
+    <WellLocation>E12</WellLocation>
+    <N>92</N>
+    <Row>5</Row>
+    <Column>12</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>94</WellNumber>
+    <WellLocation>F12</WellLocation>
+    <N>93</N>
+    <Row>6</Row>
+    <Column>12</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>95</WellNumber>
+    <WellLocation>G12</WellLocation>
+    <N>94</N>
+    <Row>7</Row>
+    <Column>12</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SamplePlate_K>
+    <WellNumber>96</WellNumber>
+    <WellLocation>H12</WellLocation>
+    <N>95</N>
+    <Row>8</Row>
+    <Column>12</Column>
+    <Type>Buffer</Type>
+    <ID>PBST</ID>
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SamplePlate_K>
+  <SensorPlate_K>
+    <WellNumber>1</WellNumber>
+    <WellLocation>A1</WellLocation>
+    <N>0</N>
+    <Row>1</Row>
+    <Column>1</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>2</WellNumber>
+    <WellLocation>B1</WellLocation>
+    <N>1</N>
+    <Row>2</Row>
+    <Column>1</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>3</WellNumber>
+    <WellLocation>C1</WellLocation>
+    <N>2</N>
+    <Row>3</Row>
+    <Column>1</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>4</WellNumber>
+    <WellLocation>D1</WellLocation>
+    <N>3</N>
+    <Row>4</Row>
+    <Column>1</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>5</WellNumber>
+    <WellLocation>E1</WellLocation>
+    <N>4</N>
+    <Row>5</Row>
+    <Column>1</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>6</WellNumber>
+    <WellLocation>F1</WellLocation>
+    <N>5</N>
+    <Row>6</Row>
+    <Column>1</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>7</WellNumber>
+    <WellLocation>G1</WellLocation>
+    <N>6</N>
+    <Row>7</Row>
+    <Column>1</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>8</WellNumber>
+    <WellLocation>H1</WellLocation>
+    <N>7</N>
+    <Row>8</Row>
+    <Column>1</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>9</WellNumber>
+    <WellLocation>A2</WellLocation>
+    <N>8</N>
+    <Row>1</Row>
+    <Column>2</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>10</WellNumber>
+    <WellLocation>B2</WellLocation>
+    <N>9</N>
+    <Row>2</Row>
+    <Column>2</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>11</WellNumber>
+    <WellLocation>C2</WellLocation>
+    <N>10</N>
+    <Row>3</Row>
+    <Column>2</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>12</WellNumber>
+    <WellLocation>D2</WellLocation>
+    <N>11</N>
+    <Row>4</Row>
+    <Column>2</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>13</WellNumber>
+    <WellLocation>E2</WellLocation>
+    <N>12</N>
+    <Row>5</Row>
+    <Column>2</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>14</WellNumber>
+    <WellLocation>F2</WellLocation>
+    <N>13</N>
+    <Row>6</Row>
+    <Column>2</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>15</WellNumber>
+    <WellLocation>G2</WellLocation>
+    <N>14</N>
+    <Row>7</Row>
+    <Column>2</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>16</WellNumber>
+    <WellLocation>H2</WellLocation>
+    <N>15</N>
+    <Row>8</Row>
+    <Column>2</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>17</WellNumber>
+    <WellLocation>A3</WellLocation>
+    <N>16</N>
+    <Row>1</Row>
+    <Column>3</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>18</WellNumber>
+    <WellLocation>B3</WellLocation>
+    <N>17</N>
+    <Row>2</Row>
+    <Column>3</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>19</WellNumber>
+    <WellLocation>C3</WellLocation>
+    <N>18</N>
+    <Row>3</Row>
+    <Column>3</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>20</WellNumber>
+    <WellLocation>D3</WellLocation>
+    <N>19</N>
+    <Row>4</Row>
+    <Column>3</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>21</WellNumber>
+    <WellLocation>E3</WellLocation>
+    <N>20</N>
+    <Row>5</Row>
+    <Column>3</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>22</WellNumber>
+    <WellLocation>F3</WellLocation>
+    <N>21</N>
+    <Row>6</Row>
+    <Column>3</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>23</WellNumber>
+    <WellLocation>G3</WellLocation>
+    <N>22</N>
+    <Row>7</Row>
+    <Column>3</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>24</WellNumber>
+    <WellLocation>H3</WellLocation>
+    <N>23</N>
+    <Row>8</Row>
+    <Column>3</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>25</WellNumber>
+    <WellLocation>A4</WellLocation>
+    <N>24</N>
+    <Row>1</Row>
+    <Column>4</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>26</WellNumber>
+    <WellLocation>B4</WellLocation>
+    <N>25</N>
+    <Row>2</Row>
+    <Column>4</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>27</WellNumber>
+    <WellLocation>C4</WellLocation>
+    <N>26</N>
+    <Row>3</Row>
+    <Column>4</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>28</WellNumber>
+    <WellLocation>D4</WellLocation>
+    <N>27</N>
+    <Row>4</Row>
+    <Column>4</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>29</WellNumber>
+    <WellLocation>E4</WellLocation>
+    <N>28</N>
+    <Row>5</Row>
+    <Column>4</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>30</WellNumber>
+    <WellLocation>F4</WellLocation>
+    <N>29</N>
+    <Row>6</Row>
+    <Column>4</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>31</WellNumber>
+    <WellLocation>G4</WellLocation>
+    <N>30</N>
+    <Row>7</Row>
+    <Column>4</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>32</WellNumber>
+    <WellLocation>H4</WellLocation>
+    <N>31</N>
+    <Row>8</Row>
+    <Column>4</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>33</WellNumber>
+    <WellLocation>A5</WellLocation>
+    <N>32</N>
+    <Row>1</Row>
+    <Column>5</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>34</WellNumber>
+    <WellLocation>B5</WellLocation>
+    <N>33</N>
+    <Row>2</Row>
+    <Column>5</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>35</WellNumber>
+    <WellLocation>C5</WellLocation>
+    <N>34</N>
+    <Row>3</Row>
+    <Column>5</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>36</WellNumber>
+    <WellLocation>D5</WellLocation>
+    <N>35</N>
+    <Row>4</Row>
+    <Column>5</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>37</WellNumber>
+    <WellLocation>E5</WellLocation>
+    <N>36</N>
+    <Row>5</Row>
+    <Column>5</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>38</WellNumber>
+    <WellLocation>F5</WellLocation>
+    <N>37</N>
+    <Row>6</Row>
+    <Column>5</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>39</WellNumber>
+    <WellLocation>G5</WellLocation>
+    <N>38</N>
+    <Row>7</Row>
+    <Column>5</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>40</WellNumber>
+    <WellLocation>H5</WellLocation>
+    <N>39</N>
+    <Row>8</Row>
+    <Column>5</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>41</WellNumber>
+    <WellLocation>A6</WellLocation>
+    <N>40</N>
+    <Row>1</Row>
+    <Column>6</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>42</WellNumber>
+    <WellLocation>B6</WellLocation>
+    <N>41</N>
+    <Row>2</Row>
+    <Column>6</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>43</WellNumber>
+    <WellLocation>C6</WellLocation>
+    <N>42</N>
+    <Row>3</Row>
+    <Column>6</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>44</WellNumber>
+    <WellLocation>D6</WellLocation>
+    <N>43</N>
+    <Row>4</Row>
+    <Column>6</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>45</WellNumber>
+    <WellLocation>E6</WellLocation>
+    <N>44</N>
+    <Row>5</Row>
+    <Column>6</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>46</WellNumber>
+    <WellLocation>F6</WellLocation>
+    <N>45</N>
+    <Row>6</Row>
+    <Column>6</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>47</WellNumber>
+    <WellLocation>G6</WellLocation>
+    <N>46</N>
+    <Row>7</Row>
+    <Column>6</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>48</WellNumber>
+    <WellLocation>H6</WellLocation>
+    <N>47</N>
+    <Row>8</Row>
+    <Column>6</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>49</WellNumber>
+    <WellLocation>A7</WellLocation>
+    <N>48</N>
+    <Row>1</Row>
+    <Column>7</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>50</WellNumber>
+    <WellLocation>B7</WellLocation>
+    <N>49</N>
+    <Row>2</Row>
+    <Column>7</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>51</WellNumber>
+    <WellLocation>C7</WellLocation>
+    <N>50</N>
+    <Row>3</Row>
+    <Column>7</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>52</WellNumber>
+    <WellLocation>D7</WellLocation>
+    <N>51</N>
+    <Row>4</Row>
+    <Column>7</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>53</WellNumber>
+    <WellLocation>E7</WellLocation>
+    <N>52</N>
+    <Row>5</Row>
+    <Column>7</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>54</WellNumber>
+    <WellLocation>F7</WellLocation>
+    <N>53</N>
+    <Row>6</Row>
+    <Column>7</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>55</WellNumber>
+    <WellLocation>G7</WellLocation>
+    <N>54</N>
+    <Row>7</Row>
+    <Column>7</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>56</WellNumber>
+    <WellLocation>H7</WellLocation>
+    <N>55</N>
+    <Row>8</Row>
+    <Column>7</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>57</WellNumber>
+    <WellLocation>A8</WellLocation>
+    <N>56</N>
+    <Row>1</Row>
+    <Column>8</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>58</WellNumber>
+    <WellLocation>B8</WellLocation>
+    <N>57</N>
+    <Row>2</Row>
+    <Column>8</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>59</WellNumber>
+    <WellLocation>C8</WellLocation>
+    <N>58</N>
+    <Row>3</Row>
+    <Column>8</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>60</WellNumber>
+    <WellLocation>D8</WellLocation>
+    <N>59</N>
+    <Row>4</Row>
+    <Column>8</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>61</WellNumber>
+    <WellLocation>E8</WellLocation>
+    <N>60</N>
+    <Row>5</Row>
+    <Column>8</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>62</WellNumber>
+    <WellLocation>F8</WellLocation>
+    <N>61</N>
+    <Row>6</Row>
+    <Column>8</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>63</WellNumber>
+    <WellLocation>G8</WellLocation>
+    <N>62</N>
+    <Row>7</Row>
+    <Column>8</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>64</WellNumber>
+    <WellLocation>H8</WellLocation>
+    <N>63</N>
+    <Row>8</Row>
+    <Column>8</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>65</WellNumber>
+    <WellLocation>A9</WellLocation>
+    <N>64</N>
+    <Row>1</Row>
+    <Column>9</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>66</WellNumber>
+    <WellLocation>B9</WellLocation>
+    <N>65</N>
+    <Row>2</Row>
+    <Column>9</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>67</WellNumber>
+    <WellLocation>C9</WellLocation>
+    <N>66</N>
+    <Row>3</Row>
+    <Column>9</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>68</WellNumber>
+    <WellLocation>D9</WellLocation>
+    <N>67</N>
+    <Row>4</Row>
+    <Column>9</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>69</WellNumber>
+    <WellLocation>E9</WellLocation>
+    <N>68</N>
+    <Row>5</Row>
+    <Column>9</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>70</WellNumber>
+    <WellLocation>F9</WellLocation>
+    <N>69</N>
+    <Row>6</Row>
+    <Column>9</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>71</WellNumber>
+    <WellLocation>G9</WellLocation>
+    <N>70</N>
+    <Row>7</Row>
+    <Column>9</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>72</WellNumber>
+    <WellLocation>H9</WellLocation>
+    <N>71</N>
+    <Row>8</Row>
+    <Column>9</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>73</WellNumber>
+    <WellLocation>A10</WellLocation>
+    <N>72</N>
+    <Row>1</Row>
+    <Column>10</Column>
+    <Type>Ligand Sensor</Type>
+    <ID />
+    <Description>SAX (High Precision Streptavidin)</Description>
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+    <FileName>C:\Octet data\Tim\20200529xSAXxNB1AxRBDHisxTITx1001\20200529xSAXxNB1AxRBDHisxTITx1001_001.frd</FileName>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>74</WellNumber>
+    <WellLocation>B10</WellLocation>
+    <N>73</N>
+    <Row>2</Row>
+    <Column>10</Column>
+    <Type>Ligand Sensor</Type>
+    <ID />
+    <Description>SAX (High Precision Streptavidin)</Description>
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+    <FileName>C:\Octet data\Tim\20200529xSAXxNB1AxRBDHisxTITx1001\20200529xSAXxNB1AxRBDHisxTITx1001_002.frd</FileName>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>75</WellNumber>
+    <WellLocation>C10</WellLocation>
+    <N>74</N>
+    <Row>3</Row>
+    <Column>10</Column>
+    <Type>Ligand Sensor</Type>
+    <ID />
+    <Description>SAX (High Precision Streptavidin)</Description>
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+    <FileName>C:\Octet data\Tim\20200529xSAXxNB1AxRBDHisxTITx1001\20200529xSAXxNB1AxRBDHisxTITx1001_003.frd</FileName>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>76</WellNumber>
+    <WellLocation>D10</WellLocation>
+    <N>75</N>
+    <Row>4</Row>
+    <Column>10</Column>
+    <Type>Ligand Sensor</Type>
+    <ID />
+    <Description>SAX (High Precision Streptavidin)</Description>
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+    <FileName>C:\Octet data\Tim\20200529xSAXxNB1AxRBDHisxTITx1001\20200529xSAXxNB1AxRBDHisxTITx1001_004.frd</FileName>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>77</WellNumber>
+    <WellLocation>E10</WellLocation>
+    <N>76</N>
+    <Row>5</Row>
+    <Column>10</Column>
+    <Type>Ligand Sensor</Type>
+    <ID />
+    <Description>SAX (High Precision Streptavidin)</Description>
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+    <FileName>C:\Octet data\Tim\20200529xSAXxNB1AxRBDHisxTITx1001\20200529xSAXxNB1AxRBDHisxTITx1001_005.frd</FileName>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>78</WellNumber>
+    <WellLocation>F10</WellLocation>
+    <N>77</N>
+    <Row>6</Row>
+    <Column>10</Column>
+    <Type>Ligand Sensor</Type>
+    <ID />
+    <Description>SAX (High Precision Streptavidin)</Description>
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+    <FileName>C:\Octet data\Tim\20200529xSAXxNB1AxRBDHisxTITx1001\20200529xSAXxNB1AxRBDHisxTITx1001_006.frd</FileName>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>79</WellNumber>
+    <WellLocation>G10</WellLocation>
+    <N>78</N>
+    <Row>7</Row>
+    <Column>10</Column>
+    <Type>Ligand Sensor</Type>
+    <ID />
+    <Description>SAX (High Precision Streptavidin)</Description>
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+    <FileName>C:\Octet data\Tim\20200529xSAXxNB1AxRBDHisxTITx1001\20200529xSAXxNB1AxRBDHisxTITx1001_007.frd</FileName>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>80</WellNumber>
+    <WellLocation>H10</WellLocation>
+    <N>79</N>
+    <Row>8</Row>
+    <Column>10</Column>
+    <Type>Reference Sensor</Type>
+    <ID />
+    <Description>SAX (High Precision Streptavidin)</Description>
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>false</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+    <FileName>C:\Octet data\Tim\20200529xSAXxNB1AxRBDHisxTITx1001\20200529xSAXxNB1AxRBDHisxTITx1001_008.frd</FileName>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>81</WellNumber>
+    <WellLocation>A11</WellLocation>
+    <N>80</N>
+    <Row>1</Row>
+    <Column>11</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>82</WellNumber>
+    <WellLocation>B11</WellLocation>
+    <N>81</N>
+    <Row>2</Row>
+    <Column>11</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>83</WellNumber>
+    <WellLocation>C11</WellLocation>
+    <N>82</N>
+    <Row>3</Row>
+    <Column>11</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>84</WellNumber>
+    <WellLocation>D11</WellLocation>
+    <N>83</N>
+    <Row>4</Row>
+    <Column>11</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>85</WellNumber>
+    <WellLocation>E11</WellLocation>
+    <N>84</N>
+    <Row>5</Row>
+    <Column>11</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>86</WellNumber>
+    <WellLocation>F11</WellLocation>
+    <N>85</N>
+    <Row>6</Row>
+    <Column>11</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>87</WellNumber>
+    <WellLocation>G11</WellLocation>
+    <N>86</N>
+    <Row>7</Row>
+    <Column>11</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>88</WellNumber>
+    <WellLocation>H11</WellLocation>
+    <N>87</N>
+    <Row>8</Row>
+    <Column>11</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>89</WellNumber>
+    <WellLocation>A12</WellLocation>
+    <N>88</N>
+    <Row>1</Row>
+    <Column>12</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>90</WellNumber>
+    <WellLocation>B12</WellLocation>
+    <N>89</N>
+    <Row>2</Row>
+    <Column>12</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>91</WellNumber>
+    <WellLocation>C12</WellLocation>
+    <N>90</N>
+    <Row>3</Row>
+    <Column>12</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>92</WellNumber>
+    <WellLocation>D12</WellLocation>
+    <N>91</N>
+    <Row>4</Row>
+    <Column>12</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>93</WellNumber>
+    <WellLocation>E12</WellLocation>
+    <N>92</N>
+    <Row>5</Row>
+    <Column>12</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>94</WellNumber>
+    <WellLocation>F12</WellLocation>
+    <N>93</N>
+    <Row>6</Row>
+    <Column>12</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>95</WellNumber>
+    <WellLocation>G12</WellLocation>
+    <N>94</N>
+    <Row>7</Row>
+    <Column>12</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+  <SensorPlate_K>
+    <WellNumber>96</WellNumber>
+    <WellLocation>H12</WellLocation>
+    <N>95</N>
+    <Row>8</Row>
+    <Column>12</Column>
+    <Type>Empty</Type>
+    <ID />
+    <Description />
+    <XValue>NaN</XValue>
+    <YValue>NaN</YValue>
+    <WellAnnotation />
+    <Exclude>false</Exclude>
+    <Empty>true</Empty>
+    <Replicate>0</Replicate>
+    <Group>0</Group>
+  </SensorPlate_K>
+</NewDataSet>

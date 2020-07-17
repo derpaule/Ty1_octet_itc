@@ -1,0 +1,7 @@
+﻿Filename ,Temperature (°C),Bin ,[Syr] (M) ,[Cell] (M) ,Ligand in Cell,Control Type,N (sites),KD (M) ,∆H (kcal/mol),∆G (kcal/mol),-T∆S (kcal/mol),Offset (kcal/mol),Red. Chi-Sqr. (kcal/mol)²,Competitive Unknown,Compete N (sites),Compete KD (M),Compete ∆H (kcal/mol),[Weak] (M) ,Avg. Inj. Heat (μcal),St. Dev. Inj. Heat (μcal),
+20200607xRBDxNBTY1x01,25.0,Binding,75.0e-6,4.00e-6,No,Fitted Offset,1.32,3.60e-9,-4.18,-11.5,-7.34,6.00,0.158,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+20200607xRBBxNBTY1x02,37.0,Binding,75.0e-6,4.00e-6,No,Single,1.32,38.2e-9,-9.91,-10.5,-0.611,-5.9e-2,0.693,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+20200607xRBDxNBTY1x03,37.0,Binding,75.0e-6,4.00e-6,No,Single,1.10,2.19e-9,-10.6,-12.3,-1.71,0,1.16,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+20200607xRBDxNBVH52x01,37.0,No binding,75.0e-6,4.00e-6,N/A,Fitted Offset,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,6.9e-2,8.4e-2
+20200607xRBBxNBTY1x02_ctrl,37.0,Control,75.0e-6,4.00e-6,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0.129,7.6e-2
+20200607xRBDxNBTY1x03_ctrl,37.0,Control,75.0e-6,4.00e-6,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0.231,0.103

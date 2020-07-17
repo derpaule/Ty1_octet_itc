@@ -1,0 +1,562 @@
+<?xml version="1.0" standalone="yes"?>
+<OctetAnalysisSettings>
+  <KPreProcess>
+    <Key>TraySelected</Key>
+    <Value>0</Value>
+    <Comment>Sensor tray selected, 1: first tracy, 2: 2nd tracy, etc.</Comment>
+  </KPreProcess>
+  <KPreProcess>
+    <Key>Subtraction</Key>
+    <Value>1</Value>
+    <Comment>0: no, 1: reference wells, 2: parallel ref Sensors, 3: double reference, 4: average reference</Comment>
+  </KPreProcess>
+  <KPreProcess>
+    <Key>SensorSelected</Key>
+    <Value>7</Value>
+    <Comment>Number of sensors selected</Comment>
+  </KPreProcess>
+  <KPreProcess>
+    <Key>Sensor1</Key>
+    <Value>A10 - (H10)</Value>
+    <Comment>Subtraction formulas: examples A1-A2; (A1-A2)-(B1-B2)</Comment>
+  </KPreProcess>
+  <KPreProcess>
+    <Key>Sensor2</Key>
+    <Value>B10 - (H10)</Value>
+    <Comment>Subtraction formulas: examples A1-A2; (A1-A2)-(B1-B2)</Comment>
+  </KPreProcess>
+  <KPreProcess>
+    <Key>Sensor3</Key>
+    <Value>C10 - (H10)</Value>
+    <Comment>Subtraction formulas: examples A1-A2; (A1-A2)-(B1-B2)</Comment>
+  </KPreProcess>
+  <KPreProcess>
+    <Key>Sensor4</Key>
+    <Value>D10 - (H10)</Value>
+    <Comment>Subtraction formulas: examples A1-A2; (A1-A2)-(B1-B2)</Comment>
+  </KPreProcess>
+  <KPreProcess>
+    <Key>Sensor5</Key>
+    <Value>E10 - (H10)</Value>
+    <Comment>Subtraction formulas: examples A1-A2; (A1-A2)-(B1-B2)</Comment>
+  </KPreProcess>
+  <KPreProcess>
+    <Key>Sensor6</Key>
+    <Value>F10 - (H10)</Value>
+    <Comment>Subtraction formulas: examples A1-A2; (A1-A2)-(B1-B2)</Comment>
+  </KPreProcess>
+  <KPreProcess>
+    <Key>Sensor7</Key>
+    <Value>G10 - (H10)</Value>
+    <Comment>Subtraction formulas: examples A1-A2; (A1-A2)-(B1-B2)</Comment>
+  </KPreProcess>
+  <KPreProcess>
+    <Key>AlignY</Key>
+    <Value>1</Value>
+    <Comment>0: No, 1: Baseline,  2: association, 3: dissociation</Comment>
+  </KPreProcess>
+  <KPreProcess>
+    <Key>AlignYBegin</Key>
+    <Value>0.1</Value>
+    <Comment>Beginning time in seconds</Comment>
+  </KPreProcess>
+  <KPreProcess>
+    <Key>AlignYEnd</Key>
+    <Value>299.8</Value>
+    <Comment>Ending time in seconds</Comment>
+  </KPreProcess>
+  <KPreProcess>
+    <Key>InterStep</Key>
+    <Value>0</Value>
+    <Comment>0: no, 1: to baseline; 2: dissociation; 3: association</Comment>
+  </KPreProcess>
+  <KPreProcess>
+    <Key>SGFiltering</Key>
+    <Value>1</Value>
+    <Comment>0:no; 1:yes</Comment>
+  </KPreProcess>
+  <KPreProcess>
+    <Key>RemoveLMFilter</Key>
+    <Value>0</Value>
+    <Comment>0:no; 1:yes</Comment>
+  </KPreProcess>
+  <KPreProcess>
+    <Key>QCAnalysis_nmShift</Key>
+    <Value>1</Value>
+    <Comment>Output nm shift, 1=yes, 0=no</Comment>
+  </KPreProcess>
+  <KPreProcess>
+    <Key>QCAnalysis_BaselineDrift</Key>
+    <Value>1</Value>
+    <Comment>Output baseline drift, 1=yes, 0=no</Comment>
+  </KPreProcess>
+  <KPreProcess>
+    <Key>QCAnalysis_RMS</Key>
+    <Value>1</Value>
+    <Comment>Output RMS, 1=yes, 0=no</Comment>
+  </KPreProcess>
+  <KPreProcess>
+    <Key>QCAnalysis_nmShiftPtAverage</Key>
+    <Value>0</Value>
+    <Comment>Number of point average for nm shift</Comment>
+  </KPreProcess>
+  <KPreProcess>
+    <Key>QCAnalysis_NumPtsFromEnd</Key>
+    <Value>100</Value>
+    <Comment>RMS from number of points from end</Comment>
+  </KPreProcess>
+  <KPreProcess>
+    <Key>QCAnalysis_BaselineStart</Key>
+    <Value>200</Value>
+    <Comment>Start time for baseline</Comment>
+  </KPreProcess>
+  <KPreProcess>
+    <Key>QCAnalysis_BaselineEnd</Key>
+    <Value>3800</Value>
+    <Comment>End time for baseline</Comment>
+  </KPreProcess>
+  <KPreProcess>
+    <Key>QCAnalysis_nmShiftAt</Key>
+    <Value>0</Value>
+    <Comment>nm Shift at the time</Comment>
+  </KPreProcess>
+  <KDataAnalysis>
+    <Key>StepToAnalyze</Key>
+    <Value>2</Value>
+    <Comment>0: Association; 1: Dissociation; 2: both</Comment>
+  </KDataAnalysis>
+  <KDataAnalysis>
+    <Key>Model</Key>
+    <Value>2</Value>
+    <Comment>1: 1:1 model; 2: 2:1; 3: Mass Transport</Comment>
+  </KDataAnalysis>
+  <KDataAnalysis>
+    <Key>Fitting</Key>
+    <Value>0</Value>
+    <Comment>0:local; 1:global</Comment>
+  </KDataAnalysis>
+  <KDataAnalysis>
+    <Key>LocalFitting</Key>
+    <Value>1</Value>
+    <Comment>0:full; 1: partial</Comment>
+  </KDataAnalysis>
+  <KDataAnalysis>
+    <Key>ZeroOffset</Key>
+    <Value>0</Value>
+    <Comment />
+  </KDataAnalysis>
+  <KDataAnalysis>
+    <Key>GroupBy</Key>
+    <Value>0</Value>
+    <Comment>0:Sensor; 1: color; 2:...</Comment>
+  </KDataAnalysis>
+  <KDataAnalysis>
+    <Key>RmaxUnlinked</Key>
+    <Value>1</Value>
+    <Comment>0:linked; 1: unlinked by sensor; 2: unlinked by compound; 3: ...</Comment>
+  </KDataAnalysis>
+  <KDataAnalysis>
+    <Key>WOIEnabled</Key>
+    <Value>1</Value>
+    <Comment>0: use entire step, 1:use WOI</Comment>
+  </KDataAnalysis>
+  <KDataAnalysis>
+    <Key>WOIAssociationFrom</Key>
+    <Value>0</Value>
+    <Comment>Association starts (sec)</Comment>
+  </KDataAnalysis>
+  <KDataAnalysis>
+    <Key>WOIAssociationTo</Key>
+    <Value>1800</Value>
+    <Comment>Association step ends</Comment>
+  </KDataAnalysis>
+  <KDataAnalysis>
+    <Key>WOIDissociationFrom</Key>
+    <Value>0</Value>
+    <Comment>Dissociation step starts</Comment>
+  </KDataAnalysis>
+  <KDataAnalysis>
+    <Key>WOIDissociationTo</Key>
+    <Value>2700</Value>
+    <Comment>Dissociation step ends</Comment>
+  </KDataAnalysis>
+  <KDataAnalysis>
+    <Key>SteadyStateResponse</Key>
+    <Value>1</Value>
+    <Comment>0: use Req; 1: response</Comment>
+  </KDataAnalysis>
+  <KDataAnalysis>
+    <Key>SteadyStateResponseFrom</Key>
+    <Value>1790</Value>
+    <Comment>Response time window for Steady State</Comment>
+  </KDataAnalysis>
+  <KDataAnalysis>
+    <Key>SteadyStateResponseTo</Key>
+    <Value>1795</Value>
+    <Comment>Time window ends</Comment>
+  </KDataAnalysis>
+  <KDataAnalysis>
+    <Key>GroupInfo_NumGroups</Key>
+    <Value>7</Value>
+    <Comment>Number of Groups</Comment>
+  </KDataAnalysis>
+  <KDataAnalysis>
+    <Key>GroupInfo_Group1</Key>
+    <Value>0,0,0,A10,A11,0+</Value>
+    <Comment>Information for one group</Comment>
+  </KDataAnalysis>
+  <KDataAnalysis>
+    <Key>GroupInfo_Group2</Key>
+    <Value>0,0,0,B10,B11,0+</Value>
+    <Comment>Information for one group</Comment>
+  </KDataAnalysis>
+  <KDataAnalysis>
+    <Key>GroupInfo_Group3</Key>
+    <Value>0,0,0,C10,C11,0+</Value>
+    <Comment>Information for one group</Comment>
+  </KDataAnalysis>
+  <KDataAnalysis>
+    <Key>GroupInfo_Group4</Key>
+    <Value>0,0,0,D10,D11,0+</Value>
+    <Comment>Information for one group</Comment>
+  </KDataAnalysis>
+  <KDataAnalysis>
+    <Key>GroupInfo_Group5</Key>
+    <Value>0,0,0,E10,E11,0+</Value>
+    <Comment>Information for one group</Comment>
+  </KDataAnalysis>
+  <KDataAnalysis>
+    <Key>GroupInfo_Group6</Key>
+    <Value>0,0,0,F10,F11,0+</Value>
+    <Comment>Information for one group</Comment>
+  </KDataAnalysis>
+  <KDataAnalysis>
+    <Key>GroupInfo_Group7</Key>
+    <Value>0,0,0,G10,G11,0+</Value>
+    <Comment>Information for one group</Comment>
+  </KDataAnalysis>
+  <KGroupViewOptions>
+    <Key>GroupBy1</Key>
+    <Value>Sample ID</Value>
+    <Comment>Column name for grouping</Comment>
+  </KGroupViewOptions>
+  <KGroupViewOptions>
+    <Key>GroupBy2</Key>
+    <Value />
+    <Comment>Column name for grouping</Comment>
+  </KGroupViewOptions>
+  <KGroupViewOptions>
+    <Key>GroupBy3</Key>
+    <Value />
+    <Comment>Column name for grouping</Comment>
+  </KGroupViewOptions>
+  <KGroupViewOptions>
+    <Key>LegendBy1</Key>
+    <Value />
+    <Comment>Column name as Legend</Comment>
+  </KGroupViewOptions>
+  <KGroupViewOptions>
+    <Key>LegendBy2</Key>
+    <Value />
+    <Comment>Column name as Legend</Comment>
+  </KGroupViewOptions>
+  <KGroupViewOptions>
+    <Key>ResidualGraph</Key>
+    <Value>0</Value>
+    <Comment>0:not show; 1:yes</Comment>
+  </KGroupViewOptions>
+  <KGroupViewOptions>
+    <Key>XYGraph</Key>
+    <Value>0</Value>
+    <Comment>0:not show; 1:yes</Comment>
+  </KGroupViewOptions>
+  <KGroupViewOptions>
+    <Key>SSGraph</Key>
+    <Value>0</Value>
+    <Comment>0:not show; 1:yes</Comment>
+  </KGroupViewOptions>
+  <KGroupViewOptions>
+    <Key>IsoAffinityGraph</Key>
+    <Value>0</Value>
+    <Comment>0:not show; 1:yes</Comment>
+  </KGroupViewOptions>
+  <KGroupViewOptions>
+    <Key>ShowPercentRMax</Key>
+    <Value>0</Value>
+    <Comment>0:not show; 1:yes</Comment>
+  </KGroupViewOptions>
+  <KGroupViewOptions>
+    <Key>ShowCurveFits</Key>
+    <Value>1</Value>
+    <Comment>0:not show; 1:yes</Comment>
+  </KGroupViewOptions>
+  <KGroupViewOptions>
+    <Key>DisplayTracesInTableColor</Key>
+    <Value>0</Value>
+    <Comment>0:not display; 1:yes</Comment>
+  </KGroupViewOptions>
+  <KGroupViewOptions>
+    <Key>ShowData</Key>
+    <Value>0</Value>
+    <Comment>0: all data, 1: included traces only, 2: selected traces only</Comment>
+  </KGroupViewOptions>
+  <KGroupViewOptions>
+    <Key>NumGraphsPerRow</Key>
+    <Value>3</Value>
+    <Comment>Number of Graphs per Row</Comment>
+  </KGroupViewOptions>
+  <KGroupViewOptions>
+    <Key>AutoSize</Key>
+    <Value>1</Value>
+    <Comment>Auto graph size: 0: no, 1: yes</Comment>
+  </KGroupViewOptions>
+  <KGroupViewOptions>
+    <Key>WidthMultiple</Key>
+    <Value>1.5</Value>
+    <Comment>If size auto, Width = multiple*height</Comment>
+  </KGroupViewOptions>
+  <KGroupViewOptions>
+    <Key>Width</Key>
+    <Value>300</Value>
+    <Comment>default 200 pixels, Graph width</Comment>
+  </KGroupViewOptions>
+  <KGroupViewOptions>
+    <Key>Height</Key>
+    <Value>200</Value>
+    <Comment>Graph height, default 300</Comment>
+  </KGroupViewOptions>
+  <KGroupViewOptions>
+    <Key>GraphTitle</Key>
+    <Value>1</Value>
+    <Comment>0:not show; 1:yes</Comment>
+  </KGroupViewOptions>
+  <KGroupViewOptions>
+    <Key>ColumnNames</Key>
+    <Value>1</Value>
+    <Comment>0:not show; 1:yes</Comment>
+  </KGroupViewOptions>
+  <KGroupViewOptions>
+    <Key>LegendByColName</Key>
+    <Value>1</Value>
+    <Comment>0:not show; 1:yes</Comment>
+  </KGroupViewOptions>
+  <KGroupViewOptions>
+    <Key>XAxisLabel</Key>
+    <Value>1</Value>
+    <Comment>0:not show; 1:yes</Comment>
+  </KGroupViewOptions>
+  <KGroupViewOptions>
+    <Key>XAxisTitle</Key>
+    <Value>1</Value>
+    <Comment>0:not show; 1:yes</Comment>
+  </KGroupViewOptions>
+  <KGroupViewOptions>
+    <Key>YAxisLabel</Key>
+    <Value>1</Value>
+    <Comment>0:not show; 1:yes</Comment>
+  </KGroupViewOptions>
+  <KGroupViewOptions>
+    <Key>YAxisTitle</Key>
+    <Value>1</Value>
+    <Comment>0:not show; 1:yes</Comment>
+  </KGroupViewOptions>
+  <KGroupViewOptions>
+    <Key>GridLines</Key>
+    <Value>1</Value>
+    <Comment>0:not show; 1:yes</Comment>
+  </KGroupViewOptions>
+  <KGroupViewOptions>
+    <Key>StepDividers</Key>
+    <Value>1</Value>
+    <Comment>0:not show; 1:yes</Comment>
+  </KGroupViewOptions>
+  <KGroupViewOptions>
+    <Key>StandardOverlay</Key>
+    <Value>0</Value>
+    <Comment>0:not; 1:yes</Comment>
+  </KGroupViewOptions>
+  <KGroupViewOptions>
+    <Key>StandardCombined</Key>
+    <Value>0</Value>
+    <Comment>0:not; 1:yes</Comment>
+  </KGroupViewOptions>
+  <KGroupViewOptions>
+    <Key>StandardIndividual</Key>
+    <Value>0</Value>
+    <Comment>0:not; 1:yes</Comment>
+  </KGroupViewOptions>
+  <KGroupViewOptions>
+    <Key>XYGraph_XAxis</Key>
+    <Value>Index</Value>
+    <Comment>Table column name for X Axis</Comment>
+  </KGroupViewOptions>
+  <KGroupViewOptions>
+    <Key>XYGraph_YAxis</Key>
+    <Value>Conc. (nM)</Value>
+    <Comment>Table column name for Y Axis</Comment>
+  </KGroupViewOptions>
+  <KGroupViewOptions>
+    <Key>XYGraph_XLog</Key>
+    <Value>0</Value>
+    <Comment>1: log scale, 0: linear</Comment>
+  </KGroupViewOptions>
+  <KGroupViewOptions>
+    <Key>XYGraph_YLog</Key>
+    <Value>0</Value>
+    <Comment>1: log scale, 0: linear</Comment>
+  </KGroupViewOptions>
+  <KIndividualViewOptions>
+    <Key>ShowResults</Key>
+    <Value>1</Value>
+    <Comment>0: not, 1 yes, Show Results</Comment>
+  </KIndividualViewOptions>
+  <KIndividualViewOptions>
+    <Key>ShowResidual</Key>
+    <Value>1</Value>
+    <Comment>0: not, 1 yes, Show Residual graph</Comment>
+  </KIndividualViewOptions>
+  <KIndividualViewOptions>
+    <Key>NumberRows</Key>
+    <Value>3</Value>
+    <Comment>Number Rows</Comment>
+  </KIndividualViewOptions>
+  <KIndividualViewOptions>
+    <Key>NumberColumns</Key>
+    <Value>2</Value>
+    <Comment>Number Columns</Comment>
+  </KIndividualViewOptions>
+  <KIndividualViewOptions>
+    <Key>ColsSelected</Key>
+    <Value />
+    <Comment />
+  </KIndividualViewOptions>
+  <KReportOptions>
+    <Key>RawData</Key>
+    <Value>1</Value>
+    <Comment>0:no output, 1:yes</Comment>
+  </KReportOptions>
+  <KReportOptions>
+    <Key>Processed</Key>
+    <Value>1</Value>
+    <Comment>0:No; 1:Yes</Comment>
+  </KReportOptions>
+  <KReportOptions>
+    <Key>ExcelReport</Key>
+    <Value>1</Value>
+    <Comment>0:No; 1:Yes</Comment>
+  </KReportOptions>
+  <KReportOptions>
+    <Key>RawDataFile</Key>
+    <Value>C:\Octet data\Tim\20200529xSAXxNB1AxRBDHisxTITx1001</Value>
+    <Comment>File for raw data output</Comment>
+  </KReportOptions>
+  <KReportOptions>
+    <Key>ProcessedDataFile</Key>
+    <Comment>Filename for processed data output</Comment>
+  </KReportOptions>
+  <KReportOptions>
+    <Key>ExcelReportFile</Key>
+    <Value>C:\Octet data\Tim\20200529xSAXxNB1AxRBDHisxTITx1001\ExcelReport_kd21.xls</Value>
+    <Comment>Filename for excel report</Comment>
+  </KReportOptions>
+  <KReportOptions>
+    <Key>Excel_ExperimentSummary</Key>
+    <Value>1</Value>
+    <Comment>Export, 0:no, 1:yes</Comment>
+  </KReportOptions>
+  <KReportOptions>
+    <Key>Excel_SensorTrays</Key>
+    <Value>1</Value>
+    <Comment>0:no; 1:yes</Comment>
+  </KReportOptions>
+  <KReportOptions>
+    <Key>Excel_RawAndAlignedData</Key>
+    <Value>1</Value>
+    <Comment>0:no; 1:yes</Comment>
+  </KReportOptions>
+  <KReportOptions>
+    <Key>Excel_SensorTrayImage</Key>
+    <Value>1</Value>
+    <Comment>0:no; 1:yes</Comment>
+  </KReportOptions>
+  <KReportOptions>
+    <Key>Excel_SensorTrayDataTable</Key>
+    <Value>1</Value>
+    <Comment>0:no; 1:yes</Comment>
+  </KReportOptions>
+  <KReportOptions>
+    <Key>Excel_SamplePlateDataTable</Key>
+    <Value>1</Value>
+    <Comment>0:no; 1:yes</Comment>
+  </KReportOptions>
+  <KReportOptions>
+    <Key>Excel_SamplePlateImage</Key>
+    <Value>1</Value>
+    <Comment>0:no; 1:yes</Comment>
+  </KReportOptions>
+  <KReportOptions>
+    <Key>Excel_ProcessedResults</Key>
+    <Value>1</Value>
+    <Comment>0:no; 1:yes</Comment>
+  </KReportOptions>
+  <KReportOptions>
+    <Key>Excel_SensorSummary</Key>
+    <Value>0</Value>
+    <Comment>0:no; 1:yes</Comment>
+  </KReportOptions>
+  <KReportOptions>
+    <Key>Excel_ReportPoint</Key>
+    <Value>0</Value>
+    <Comment>0:no; 1:yes</Comment>
+  </KReportOptions>
+  <KReportOptions>
+    <Key>Excel_StackView</Key>
+    <Value>1</Value>
+    <Comment>0:no; 1:yes</Comment>
+  </KReportOptions>
+  <KReportOptions>
+    <Key>Excel_ResultTable</Key>
+    <Value>1</Value>
+    <Comment>0:no; 1:yes</Comment>
+  </KReportOptions>
+  <KReportOptions>
+    <Key>Excel_SteadyStateAnalysis</Key>
+    <Value>1</Value>
+    <Comment>0:no; 1:yes</Comment>
+  </KReportOptions>
+  <KReportOptions>
+    <Key>Excel_IsoAffinity</Key>
+    <Value>1</Value>
+    <Comment>0:no; 1:yes</Comment>
+  </KReportOptions>
+  <KReportOptions>
+    <Key>Excel_IndividualView</Key>
+    <Value>0</Value>
+    <Comment>0:no; 1:yes</Comment>
+  </KReportOptions>
+  <KReportOptions>
+    <Key>Excel_GroupViews</Key>
+    <Value>1</Value>
+    <Comment>0:no; 1:yes</Comment>
+  </KReportOptions>
+  <KBinningSettings>
+    <Key>StartDisplayOffset</Key>
+    <Value>0</Value>
+    <Comment />
+  </KBinningSettings>
+  <KBinningSettings>
+    <Key>EndStartOffset</Key>
+    <Value>0</Value>
+    <Comment />
+  </KBinningSettings>
+  <KBinningSettings>
+    <Key>StartSearchOffset</Key>
+    <Value>0</Value>
+    <Comment />
+  </KBinningSettings>
+  <KBinStepSettings>
+    <Key>StepCount</Key>
+    <Value>0</Value>
+    <Comment />
+  </KBinStepSettings>
+</OctetAnalysisSettings>
