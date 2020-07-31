@@ -2,21 +2,22 @@
 title: 'Octet and ITC data analysis of Ty1:RBD interaction '
 author: '[Tim Schulte]'
 description: 'Analysis of ITC/Octet data associated with the ms: An alpaca nanobody
-  neutralizes SARS-CoV-2 by blocking receptor interaction '
-documentclass: book
+  neutralizes SARS-CoV-2 by blocking receptor interaction'
+link-citations: yes
 site: bookdown::bookdown_site
 bibliography: Ty1.bib
 url: https://www.biorxiv.org/content/10.1101/2020.06.02.130161v1
 ---
 
-Data  are associated with the [manuscript](https://www.biorxiv.org/content/10.1101/2020.06.02.130161v1) **An alpaca nanobody neutralizes SARS-CoV-2 by blocking receptor interaction** led by my colleague Leo Hanke within the group of Gerry [mcinerney](https://ki.se/en/mtc/gerald-mcinerney-group). The ms just got accepted for publication in [Nature Communications](link). The bookdown document was created based on [bookdown](https://bookdown.org/yihui/bookdown/), and [rtemps](https://github.com/bblodfon/rtemps).
+Data  are associated with the [manuscript](https://www.biorxiv.org/content/10.1101/2020.06.02.130161v1) **An alpaca nanobody neutralizes SARS-CoV-2 by blocking receptor interaction** led by my colleagues Leo Hanke within the group of Gerry [McInerney](https://ki.se/en/mtc/gerald-mcinerney-group). The ms just got accepted for publication in [Nature Communications](link). The data were also put on DataDryad with doi:10.5061/dryad.gb5mkkwmz.
+ The bookdown document was created based on [bookdown](https://bookdown.org/yihui/bookdown/), and [rtemps](https://github.com/bblodfon/rtemps).
 
-If you find this material useful in your own research or want to re-use some of the code, please cite the main research paper.
+If you find this material useful in your own research or want to re-use some of the code, please cite the main research paper. 
 
 # Octet data analysis and visualization
 
 ## Data import
-Octet data were collected as described in the methods section of the [associated manuscript](https://www.biorxiv.org/content/10.1101/2020.06.02.130161v1). Data were pre-processed and analyzed using the ForteBio [software](https://www.fortebio.com/products/octet-systems-software). Raw and processed data were exported and imported into R using the script below. This pipeline was mainly used to tidy the data for plotting and fitting purposes. Final figures as shown in the manuscript were assembled in Adobe Illustrator.
+Octet data were collected as described in the methods section of the ms. Data were pre-processed and analyzed using the ForteBio [software](https://www.fortebio.com/products/octet-systems-software). Raw and processed data were exported and imported into R using the script below. This pipeline was mainly used to tidy the data for plotting and fitting purposes. Final figures as shown in the manuscript were assembled in Adobe Illustrator.
 
 
 
@@ -181,7 +182,7 @@ data_dir_all_csv_titrations_all_nested <- data_dir_all_csv_titrations_unnested %
 data_pall_csv_conc_titrations_ligand_eq <- data_pall_csv_conc_titrations_eq %>% dplyr::filter(meas_type == "TIT") 
 ```
 
-and then plotted against the NTF2-dimer concentration. 
+and then plotted against the RBD concentration. 
 
 
 ```r
@@ -901,7 +902,7 @@ This is the almost final figure that was used to generate Figures 3B and supplem
 :::
 
 
-## Loooking at expected maximum responses bases on ligand/analyte MW ratios
+## Looking at expected maximum responses based on ligand/analyte MW ratios
 
 ```r
 pull_KDpars_f <- function(df){
@@ -1062,9 +1063,11 @@ print(itc_combplot)
 ```
 
 <img src="index_files/figure-html/itcplotsXarranged-1.png" width="672" />
+
 ::: {#itcplotsXarrangedCaption .figure-box}
 The almost ready plot that was used for Figure 3C.
 :::
+
 
 ## ITC raw data plots
 
@@ -1091,9 +1094,54 @@ itc_raw_ggplot <- filelistdata_raw_longer.tib %>% dplyr::mutate(., syringe = str
 Raw data that were used for the analysis and extraction of binding parameters. Not shown in ms. 
 :::
 
+## estimating the error from the two experiments
+
+```r
+filelistdata_itctable_kable.tib <- filelistdata_itctable.tib %>% dplyr::filter(., filename == "20200607xRBBxNBTY1x02" | filename == "20200607xRBDxNBTY1x03") %>% dplyr::summarize(., dG_mean = mean(dG), dG_sd = sd(dG)) %>% dplyr::mutate(dG_plus = dG_mean + dG_sd, dG_minus = dG_mean - dG_sd) %>% dplyr::mutate(., KD_mean = exp(dG_mean*4184/(8.3145*(37+273)))*10^9, KD_plus = exp(dG_plus*4184/(8.3145*(37+273)))*10^9,KD_minus = exp(dG_minus*4184/(8.3145*(37+273)))*10^9 ) %>% pivot_longer(., cols = everything()) %>% pivot_wider(., names_from = c("name"), values_from = "value") %>% pivot_longer(., cols = everything(), names_to = c(".value", "par"), names_sep = "_") %>% dplyr::select(., dG, KD, par)
+
+kable(filelistdata_itctable_kable.tib,digits = 1)
+```
+
+<table>
+ <thead>
+  <tr>
+   <th style="text-align:right;"> dG </th>
+   <th style="text-align:right;"> KD </th>
+   <th style="text-align:left;"> par </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:right;"> -11.4 </td>
+   <td style="text-align:right;"> 9.2 </td>
+   <td style="text-align:left;"> mean </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1.3 </td>
+   <td style="text-align:right;"> NA </td>
+   <td style="text-align:left;"> sd </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> -10.1 </td>
+   <td style="text-align:right;"> 72.5 </td>
+   <td style="text-align:left;"> plus </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> -12.7 </td>
+   <td style="text-align:right;"> 1.2 </td>
+   <td style="text-align:left;"> minus </td>
+  </tr>
+</tbody>
+</table>
+
+::: {#itctableCaption .table-box}
+Mean and sd values of dG were calculated from the two experiments. $\Delta G = -RTlnK$ was then used to derive the lower and upper bounds for the affinity as mentioned in the ms. dG is in kcal/mol, KD in nM.
+:::
+
+
 Plots were saved as postscript files, and edited into publication-quality figures using Adobe Illustrator.
 
-I am not a programmer, and this is most probably not efficient code, but the code was useful for data analysis and produced hopefully some understandable and visually appealing figures. If you spot errors please drop me a mail. 
+I am not a programmer, and this is most probably not efficient code, but the code was useful for data analysis and produced some understandable and hopefully visually appealing figures. If you spot errors please drop me a message. 
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 

@@ -865,13 +865,14 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="1.8" data-path=""><a href="#tidying-data-for-evilfit-analysis-and-combined-plots-of-local-11-fits-vs.global-bayesian-11-fits-forte-vs.evilfit"><i class="fa fa-check"></i><b>1.8</b> Tidying data for evilfit analysis and combined plots of local 1:1 fits vs. global bayesian 1:1 fits (Forte vs. Evilfit)</a></li>
 <li class="chapter" data-level="1.9" data-path=""><a href="#combining-the-local-fits-with-bayesian-analysis-in-a-single-plot"><i class="fa fa-check"></i><b>1.9</b> Combining the local fits with bayesian analysis in a single plot</a></li>
 <li class="chapter" data-level="1.10" data-path=""><a href="#assembling-figures-for-manuscript"><i class="fa fa-check"></i><b>1.10</b> Assembling figures for manuscript</a></li>
-<li class="chapter" data-level="1.11" data-path=""><a href="#loooking-at-expected-maximum-responses-bases-on-ligandanalyte-mw-ratios"><i class="fa fa-check"></i><b>1.11</b> Loooking at expected maximum responses bases on ligand/analyte MW ratios</a></li>
+<li class="chapter" data-level="1.11" data-path=""><a href="#looking-at-expected-maximum-responses-based-on-ligandanalyte-mw-ratios"><i class="fa fa-check"></i><b>1.11</b> Looking at expected maximum responses based on ligand/analyte MW ratios</a></li>
 </ul></li>
 <li class="chapter" data-level="2" data-path=""><a href="#analysis-of-itc-data"><i class="fa fa-check"></i><b>2</b> Analysis of ITC data</a><ul>
 <li class="chapter" data-level="2.1" data-path=""><a href="#importing-itc-data"><i class="fa fa-check"></i><b>2.1</b> importing ITC data</a></li>
 <li class="chapter" data-level="2.2" data-path=""><a href="#itc-primary-plots"><i class="fa fa-check"></i><b>2.2</b> ITC primary plots</a></li>
 <li class="chapter" data-level="2.3" data-path=""><a href="#itc-binding-isotherms-and-thermodynamic-signatures"><i class="fa fa-check"></i><b>2.3</b> ITC binding isotherms and thermodynamic signatures</a></li>
 <li class="chapter" data-level="2.4" data-path=""><a href="#itc-raw-data-plots"><i class="fa fa-check"></i><b>2.4</b> ITC raw data plots</a></li>
+<li class="chapter" data-level="2.5" data-path=""><a href="#estimating-the-error-from-the-two-experiments"><i class="fa fa-check"></i><b>2.5</b> estimating the error from the two experiments</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path=""><a href="#references"><i class="fa fa-check"></i><b>3</b> References</a></li>
 <li class="divider"></li>
@@ -898,13 +899,14 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <h1 class="title">Octet and ITC data analysis of Ty1:RBD interaction</h1>
 <p class="author"><em>[Tim Schulte]</em></p>
 </div>
-<p>Data are associated with the <a href="https://www.biorxiv.org/content/10.1101/2020.06.02.130161v1">manuscript</a> <strong>An alpaca nanobody neutralizes SARS-CoV-2 by blocking receptor interaction</strong> led by my colleague Leo Hanke within the group of Gerry <a href="https://ki.se/en/mtc/gerald-mcinerney-group">mcinerney</a>. The ms just got accepted for publication in <a href="link">Nature Communications</a>. The bookdown document was created based on <a href="https://bookdown.org/yihui/bookdown/">bookdown</a>, and <a href="https://github.com/bblodfon/rtemps">rtemps</a>.</p>
+<p>Data are associated with the <a href="https://www.biorxiv.org/content/10.1101/2020.06.02.130161v1">manuscript</a> <strong>An alpaca nanobody neutralizes SARS-CoV-2 by blocking receptor interaction</strong> led by my colleagues Leo Hanke within the group of Gerry <a href="https://ki.se/en/mtc/gerald-mcinerney-group">McInerney</a>. The ms just got accepted for publication in <a href="link">Nature Communications</a>. The data were also put on DataDryad with <a href="doi:10.5061/dryad.gb5mkkwmz" class="uri">doi:10.5061/dryad.gb5mkkwmz</a>.
+The bookdown document was created based on <a href="https://bookdown.org/yihui/bookdown/">bookdown</a>, and <a href="https://github.com/bblodfon/rtemps">rtemps</a>.</p>
 <p>If you find this material useful in your own research or want to re-use some of the code, please cite the main research paper.</p>
 <div id="octet-data-analysis-and-visualization" class="section level1">
 <h1><span class="header-section-number">1</span> Octet data analysis and visualization</h1>
 <div id="data-import" class="section level2">
 <h2><span class="header-section-number">1.1</span> Data import</h2>
-<p>Octet data were collected as described in the methods section of the <a href="https://www.biorxiv.org/content/10.1101/2020.06.02.130161v1">associated manuscript</a>. Data were pre-processed and analyzed using the ForteBio <a href="https://www.fortebio.com/products/octet-systems-software">software</a>. Raw and processed data were exported and imported into R using the script below. This pipeline was mainly used to tidy the data for plotting and fitting purposes. Final figures as shown in the manuscript were assembled in Adobe Illustrator.</p>
+<p>Octet data were collected as described in the methods section of the ms. Data were pre-processed and analyzed using the ForteBio <a href="https://www.fortebio.com/products/octet-systems-software">software</a>. Raw and processed data were exported and imported into R using the script below. This pipeline was mainly used to tidy the data for plotting and fitting purposes. Final figures as shown in the manuscript were assembled in Adobe Illustrator.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="kw">library</span>(ggplot2)</a>
 <a class="sourceLine" id="cb1-2" data-line-number="2"><span class="kw">library</span>(tidyverse)</a>
 <a class="sourceLine" id="cb1-3" data-line-number="3"><span class="kw">library</span>(plyr)</a>
@@ -1049,7 +1051,7 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <a class="sourceLine" id="cb5-10" data-line-number="10">data_dir_all_csv_titrations_all_nested &lt;-<span class="st"> </span>data_dir_all_csv_titrations_unnested <span class="op">%&gt;%</span><span class="st"> </span>dplyr<span class="op">::</span><span class="kw">filter</span>(.,meas_type <span class="op">==</span><span class="st"> &quot;TIT&quot;</span>) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">group_by</span>(., rec, meas_type, sampleid, exprun_digit, sensorid, sensor, sample, ligand, conc_nM, octet_eq, index) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">nest</span>(.) </a>
 <a class="sourceLine" id="cb5-11" data-line-number="11"></a>
 <a class="sourceLine" id="cb5-12" data-line-number="12">data_pall_csv_conc_titrations_ligand_eq &lt;-<span class="st"> </span>data_pall_csv_conc_titrations_eq <span class="op">%&gt;%</span><span class="st"> </span>dplyr<span class="op">::</span><span class="kw">filter</span>(meas_type <span class="op">==</span><span class="st"> &quot;TIT&quot;</span>) </a></code></pre></div>
-<p>and then plotted against the NTF2-dimer concentration.</p>
+<p>and then plotted against the RBD concentration.</p>
 <div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb6-1" data-line-number="1">data_pall_csv_conc_titrations_ligand_eq_logplot &lt;-<span class="st"> </span>data_pall_csv_conc_titrations_ligand_eq <span class="op">%&gt;%</span><span class="st">  </span><span class="kw">ggplot</span>(<span class="dt">data=</span>., <span class="kw">aes</span>(<span class="dt">x=</span>conc_nM, <span class="dt">y=</span>octet_eq, <span class="dt">color=</span>conc_nM, <span class="dt">group=</span><span class="kw">factor</span>(sampleid))) <span class="op">+</span><span class="st">  </span><span class="co">#xlab(&quot;Vol /mL&quot;) + #ylab(&quot;Abs /mAU&quot;) +#xlim(c(0,1000)) +#ylim(c(-5,50)) +  #geom_vline(xintercept = mwlines, color = &quot;red&quot;, linetype=&quot;dashed&quot;, size=0.5) +</span></a>
 <a class="sourceLine" id="cb6-2" data-line-number="2"><span class="st">  </span><span class="kw">geom_point</span>(<span class="dt">size=</span><span class="dv">2</span>) <span class="op">+</span></a>
 <a class="sourceLine" id="cb6-3" data-line-number="3"><span class="st">  </span><span class="kw">scale_x_log10</span>(<span class="st">&quot;c(RBD): nM&quot;</span>) <span class="op">+</span></a>
@@ -1245,12 +1247,12 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 </div>
 <div id="fitting-and-plotting-pseudo-equilibrium-data" class="section level2">
 <h2><span class="header-section-number">1.6</span> Fitting and plotting pseudo-equilibrium data</h2>
-<p>Pseudo-eq binding data were fit using the Hill equation, taken from <span class="citation">(Gadagkar and Call 2015)</span>:</p>
+<p>Pseudo-eq binding data were fit using the Hill equation, taken from <span class="citation">(Gadagkar and Call <a href="#ref-gadagkar_computational_2015">2015</a>)</span>:</p>
 <p><span class="math display" id="eq:hill">\[\begin{equation}
 octet_{eq} = octet_0 + \frac{octet_{max} - octet_0}{1+[\frac{EC50}{conc}]^{hslope} }
 \tag{1.1}
 \end{equation}\]</span></p>
-<p>and a simple Langmuir isotherm, eq taken from <span class="citation">(O’Shannessy and Winzor 1996)</span></p>
+<p>and a simple Langmuir isotherm, eq taken from <span class="citation">(O’Shannessy and Winzor <a href="#ref-oshannessy_interpretation_1996">1996</a>)</span></p>
 <p><span class="math display" id="eq:langmuir">\[\begin{equation}
 octet_{eq} = \frac{octet_{max}*conc}{Kd + conc}
 \tag{1.2}
@@ -1372,7 +1374,7 @@ Kinetic fitting data were exported in the same txt files comprising data with fi
 </div>
 <div id="tidying-data-for-evilfit-analysis-and-combined-plots-of-local-11-fits-vs.global-bayesian-11-fits-forte-vs.evilfit" class="section level2">
 <h2><span class="header-section-number">1.8</span> Tidying data for evilfit analysis and combined plots of local 1:1 fits vs. global bayesian 1:1 fits (Forte vs. Evilfit)</h2>
-<p>Export data to be imported into <a href="https://sedfitsedphat.nibib.nih.gov/software/default.aspx">Evilfit</a> for Bayesian analysis to obtain two-dimensional distribution of KD and koff-rate constants to address heterogeneous ligand site populations on the sensor surface <span class="citation">(Svitel et al. 2003)</span><span class="citation">(Gorshkova et al. 2008)</span>.</p>
+<p>Export data to be imported into <a href="https://sedfitsedphat.nibib.nih.gov/software/default.aspx">Evilfit</a> for Bayesian analysis to obtain two-dimensional distribution of KD and koff-rate constants to address heterogeneous ligand site populations on the sensor surface <span class="citation">(Svitel et al. <a href="#ref-svitel_combined_2003">2003</a>)</span><span class="citation">(Gorshkova et al. <a href="#ref-gorshkova_bayesian_2008">2008</a>)</span>.</p>
 <div class="sourceCode" id="cb24"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb24-1" data-line-number="1">pick_id &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="kw">seq</span>(<span class="dv">1</span>,<span class="dv">1000000</span>,<span class="dv">5</span>))</a>
 <a class="sourceLine" id="cb24-2" data-line-number="2"></a>
 <a class="sourceLine" id="cb24-3" data-line-number="3">data_dir_all_kinetics_evil1 &lt;-<span class="st"> </span>data_dir_all_kinetics <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">ungroup</span>() <span class="op">%&gt;%</span><span class="st"> </span>dplyr<span class="op">::</span><span class="kw">filter</span>(., exprun_digit <span class="op">&gt;</span><span class="st"> </span><span class="dv">802</span>) <span class="op">%&gt;%</span><span class="st"> </span>dplyr<span class="op">::</span><span class="kw">select</span>(., <span class="op">-</span>csv_shifted, <span class="op">-</span>dirname, <span class="op">-</span>filterme, <span class="op">-</span>meas_type, <span class="op">-</span>meas_driftcorr, <span class="op">-</span>csv_kinfolder) <span class="op">%&gt;%</span><span class="st"> </span>dplyr<span class="op">::</span><span class="kw">mutate</span>(., <span class="dt">sensor =</span> <span class="kw">str_extract</span>(csv_kinfilelist, <span class="st">&quot;[^[Result.txt]]&quot;</span>)) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">unnest</span>(., <span class="kw">c</span>(<span class="st">&quot;csv_shifted_rmsd&quot;</span>)) <span class="op">%&gt;%</span><span class="st"> </span>dplyr<span class="op">::</span><span class="kw">mutate</span>(., <span class="dt">octet1000 =</span> octet<span class="op">*</span><span class="dv">1000</span>) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">ungroup</span>() <span class="op">%&gt;%</span><span class="st"> </span>dplyr<span class="op">::</span><span class="kw">select</span>(., <span class="op">-</span>csv_kinfilelist, csv_kinfilereadme) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">group_by</span>(sample, sensor) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">nest</span>() <span class="op">%&gt;%</span><span class="st"> </span>dplyr<span class="op">::</span><span class="kw">mutate</span>(., <span class="dt">data_mod =</span> purrr<span class="op">::</span><span class="kw">map</span>(data, <span class="op">~</span>dplyr<span class="op">::</span><span class="kw">mutate</span>(., <span class="dt">octet1000pos =</span> octet1000<span class="op">-</span><span class="kw">min</span>(octet1000)))) <span class="op">%&gt;%</span><span class="st"> </span>dplyr<span class="op">::</span><span class="kw">select</span>(<span class="op">-</span>data) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">unnest</span>(<span class="dt">cols =</span> <span class="kw">c</span>(<span class="st">&quot;data_mod&quot;</span>)) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">pivot_longer</span>(., <span class="dt">cols =</span> <span class="kw">c</span>(<span class="st">&quot;time&quot;</span>, <span class="st">&quot;octet&quot;</span>, <span class="st">&quot;simulated&quot;</span>, <span class="st">&quot;time_shifted&quot;</span>, <span class="st">&quot;residuals&quot;</span>, <span class="st">&quot;octet1000&quot;</span>, <span class="st">&quot;octet1000pos&quot;</span>)) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">group_by</span>(., sample, exprun_digit) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">nest</span>() <span class="op">%&gt;%</span><span class="st"> </span>dplyr<span class="op">::</span><span class="kw">mutate</span>(<span class="dt">data_wide =</span> purrr<span class="op">::</span><span class="kw">map</span>(data, <span class="op">~</span>dplyr<span class="op">::</span><span class="kw">group_by</span>(., sensor, name))) <span class="op">%&gt;%</span><span class="st"> </span>dplyr<span class="op">::</span><span class="kw">mutate</span>(<span class="dt">data_wide =</span> purrr<span class="op">::</span><span class="kw">map</span>(data_wide, <span class="op">~</span>dplyr<span class="op">::</span><span class="kw">mutate</span>(., <span class="dt">timeid =</span> <span class="kw">row_number</span>()))) <span class="op">%&gt;%</span><span class="st"> </span>dplyr<span class="op">::</span><span class="kw">mutate</span>(<span class="dt">data_wider =</span> purrr<span class="op">::</span><span class="kw">map</span>(data_wide, <span class="op">~</span><span class="kw">pivot_wider</span>(., <span class="dt">id_cols =</span> <span class="kw">c</span>(<span class="st">&quot;rec&quot;</span>, <span class="st">&quot;meas_salt&quot;</span>, <span class="st">&quot;timeid&quot;</span>), <span class="dt">names_from =</span> <span class="kw">c</span>(<span class="st">&quot;name&quot;</span>, <span class="st">&quot;sensor&quot;</span>), <span class="dt">values_from =</span> <span class="kw">c</span>(<span class="st">&quot;value&quot;</span>)) )) <span class="op">%&gt;%</span><span class="st"> </span>dplyr<span class="op">::</span><span class="kw">mutate</span>(<span class="dt">data_wider_1s =</span> purrr<span class="op">::</span><span class="kw">map</span>(data_wider, <span class="op">~</span>dplyr<span class="op">::</span><span class="kw">filter</span>(., timeid <span class="op">%in%</span><span class="st"> </span>pick_id ) )) <span class="op">%&gt;%</span><span class="st"> </span>dplyr<span class="op">::</span><span class="kw">mutate</span>(<span class="dt">evil_exp =</span> purrr<span class="op">::</span><span class="kw">map</span>(data_wider_1s, <span class="op">~</span>dplyr<span class="op">::</span><span class="kw">select</span>(., time_shifted_A, octet1000_A, time_shifted_B, octet1000_B, time_shifted_C, octet1000_C, time_shifted_D, octet1000_D, time_shifted_E, octet1000_E, time_shifted_F, octet1000_F, time_shifted_G, octet1000_G ) )) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">mutate</span>(., <span class="dt">evilname =</span> <span class="kw">paste</span>(<span class="st">&quot;./&quot;</span>, sample, <span class="st">&quot;_evil.xls&quot;</span>, <span class="dt">sep =</span> <span class="st">&quot;&quot;</span>))</a>
@@ -1633,8 +1635,8 @@ Kinetic fitting data were exported in the same txt files comprising data with fi
 <p>This is the almost final figure that was used to generate Figures 3B and supplemental Figure 2A.</p>
 </div>
 </div>
-<div id="loooking-at-expected-maximum-responses-bases-on-ligandanalyte-mw-ratios" class="section level2">
-<h2><span class="header-section-number">1.11</span> Loooking at expected maximum responses bases on ligand/analyte MW ratios</h2>
+<div id="looking-at-expected-maximum-responses-based-on-ligandanalyte-mw-ratios" class="section level2">
+<h2><span class="header-section-number">1.11</span> Looking at expected maximum responses based on ligand/analyte MW ratios</h2>
 <div class="sourceCode" id="cb39"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb39-1" data-line-number="1">pull_KDpars_f &lt;-<span class="st"> </span><span class="cf">function</span>(df){</a>
 <a class="sourceLine" id="cb39-2" data-line-number="2">  df_mod &lt;-<span class="st"> </span>df <span class="op">%&gt;%</span><span class="st"> </span>dplyr<span class="op">::</span><span class="kw">filter</span>(., kd_stats <span class="op">==</span><span class="st"> </span>kd_stats) <span class="op">%&gt;%</span><span class="st"> </span>dplyr<span class="op">::</span><span class="kw">select</span>(kd_term, kd_stats_value) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">pivot_wider</span>(., <span class="dt">names_from =</span> <span class="kw">c</span>(<span class="st">&quot;kd_stats&quot;</span>, <span class="st">&quot;kd_term&quot;</span>), <span class="dt">names_sep =</span> <span class="st">&quot;_&quot;</span>, <span class="dt">values_from =</span><span class="kw">c</span>(<span class="st">&quot;kd_stats_value&quot;</span>))</a>
 <a class="sourceLine" id="cb39-3" data-line-number="3">  <span class="kw">return</span>(df_mod)</a>
@@ -1701,7 +1703,7 @@ load_signal_ratio
 </tbody>
 </table>
 <div id="ResponseRatiosTab" class="table-box">
-<p>MW-based response estimation is typically applied to obtain estimates about active ligand concentrations as well as ligand acitivity of SPR data <span class="citation">(Merwe 2003)</span>. This relation is not established for BLI and was therefore not mentioned in the ms. However, it is interesting to note that the response/load ratio of 2 closely matches the theoretically expected ratio based on the MW of Ty1 and RBD with MW of 14 and 25 kDa, respectively.</p>
+<p>MW-based response estimation is typically applied to obtain estimates about active ligand concentrations as well as ligand acitivity of SPR data <span class="citation">(Merwe <a href="#ref-van_der_merwe_surface_2003">2003</a>)</span>. This relation is not established for BLI and was therefore not mentioned in the ms. However, it is interesting to note that the response/load ratio of 2 closely matches the theoretically expected ratio based on the MW of Ty1 and RBD with MW of 14 and 25 kDa, respectively.</p>
 </div>
 </div>
 </div>
@@ -1791,10 +1793,10 @@ This expression for the heat change Q only applies to the liquid contained in vo
 <a class="sourceLine" id="cb45-2" data-line-number="2"><span class="kw">ggsave</span>(<span class="dt">file=</span><span class="st">&quot;itc_combplot.jpeg&quot;</span>, <span class="dt">plot=</span>itc_combplot, <span class="dt">device=</span><span class="st">&quot;jpeg&quot;</span>, <span class="dt">width =</span> <span class="dv">80</span>, <span class="dt">height =</span> <span class="dv">70</span>, <span class="dt">units =</span> <span class="kw">c</span>(<span class="st">&quot;mm&quot;</span>))</a>
 <a class="sourceLine" id="cb45-3" data-line-number="3"><span class="kw">ggsave</span>(<span class="dt">file=</span><span class="st">&quot;itc_combplot.ps&quot;</span>, <span class="dt">plot=</span>itc_combplot, <span class="dt">device=</span><span class="st">&quot;ps&quot;</span>, <span class="dt">width =</span> <span class="dv">80</span>, <span class="dt">height =</span> <span class="dv">70</span>, <span class="dt">units =</span> <span class="kw">c</span>(<span class="st">&quot;mm&quot;</span>))</a>
 <a class="sourceLine" id="cb45-4" data-line-number="4"><span class="kw">print</span>(itc_combplot)</a></code></pre></div>
-<p><img src="index_files/figure-html/itcplotsXarranged-1.png" width="672" />
-::: {#itcplotsXarrangedCaption .figure-box}
-The almost ready plot that was used for Figure 3C.
-:::</p>
+<p><img src="index_files/figure-html/itcplotsXarranged-1.png" width="672" /></p>
+<div id="itcplotsXarrangedCaption" class="figure-box">
+<p>The almost ready plot that was used for Figure 3C.</p>
+</div>
 </div>
 <div id="itc-raw-data-plots" class="section level2">
 <h2><span class="header-section-number">2.4</span> ITC raw data plots</h2>
@@ -1813,8 +1815,78 @@ The almost ready plot that was used for Figure 3C.
 <div id="plot4Caption" class="figure-box">
 <p>Raw data that were used for the analysis and extraction of binding parameters. Not shown in ms.</p>
 </div>
+</div>
+<div id="estimating-the-error-from-the-two-experiments" class="section level2">
+<h2><span class="header-section-number">2.5</span> estimating the error from the two experiments</h2>
+<div class="sourceCode" id="cb48"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb48-1" data-line-number="1">filelistdata_itctable_kable.tib &lt;-<span class="st"> </span>filelistdata_itctable.tib <span class="op">%&gt;%</span><span class="st"> </span>dplyr<span class="op">::</span><span class="kw">filter</span>(., filename <span class="op">==</span><span class="st"> &quot;20200607xRBBxNBTY1x02&quot;</span> <span class="op">|</span><span class="st"> </span>filename <span class="op">==</span><span class="st"> &quot;20200607xRBDxNBTY1x03&quot;</span>) <span class="op">%&gt;%</span><span class="st"> </span>dplyr<span class="op">::</span><span class="kw">summarize</span>(., <span class="dt">dG_mean =</span> <span class="kw">mean</span>(dG), <span class="dt">dG_sd =</span> <span class="kw">sd</span>(dG)) <span class="op">%&gt;%</span><span class="st"> </span>dplyr<span class="op">::</span><span class="kw">mutate</span>(<span class="dt">dG_plus =</span> dG_mean <span class="op">+</span><span class="st"> </span>dG_sd, <span class="dt">dG_minus =</span> dG_mean <span class="op">-</span><span class="st"> </span>dG_sd) <span class="op">%&gt;%</span><span class="st"> </span>dplyr<span class="op">::</span><span class="kw">mutate</span>(., <span class="dt">KD_mean =</span> <span class="kw">exp</span>(dG_mean<span class="op">*</span><span class="dv">4184</span><span class="op">/</span>(<span class="fl">8.3145</span><span class="op">*</span>(<span class="dv">37</span><span class="op">+</span><span class="dv">273</span>)))<span class="op">*</span><span class="dv">10</span><span class="op">^</span><span class="dv">9</span>, <span class="dt">KD_plus =</span> <span class="kw">exp</span>(dG_plus<span class="op">*</span><span class="dv">4184</span><span class="op">/</span>(<span class="fl">8.3145</span><span class="op">*</span>(<span class="dv">37</span><span class="op">+</span><span class="dv">273</span>)))<span class="op">*</span><span class="dv">10</span><span class="op">^</span><span class="dv">9</span>,<span class="dt">KD_minus =</span> <span class="kw">exp</span>(dG_minus<span class="op">*</span><span class="dv">4184</span><span class="op">/</span>(<span class="fl">8.3145</span><span class="op">*</span>(<span class="dv">37</span><span class="op">+</span><span class="dv">273</span>)))<span class="op">*</span><span class="dv">10</span><span class="op">^</span><span class="dv">9</span> ) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">pivot_longer</span>(., <span class="dt">cols =</span> <span class="kw">everything</span>()) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">pivot_wider</span>(., <span class="dt">names_from =</span> <span class="kw">c</span>(<span class="st">&quot;name&quot;</span>), <span class="dt">values_from =</span> <span class="st">&quot;value&quot;</span>) <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">pivot_longer</span>(., <span class="dt">cols =</span> <span class="kw">everything</span>(), <span class="dt">names_to =</span> <span class="kw">c</span>(<span class="st">&quot;.value&quot;</span>, <span class="st">&quot;par&quot;</span>), <span class="dt">names_sep =</span> <span class="st">&quot;_&quot;</span>) <span class="op">%&gt;%</span><span class="st"> </span>dplyr<span class="op">::</span><span class="kw">select</span>(., dG, KD, par)</a>
+<a class="sourceLine" id="cb48-2" data-line-number="2"></a>
+<a class="sourceLine" id="cb48-3" data-line-number="3"><span class="kw">kable</span>(filelistdata_itctable_kable.tib,<span class="dt">digits =</span> <span class="dv">1</span>)</a></code></pre></div>
+<table>
+<thead>
+<tr>
+<th style="text-align:right;">
+dG
+</th>
+<th style="text-align:right;">
+KD
+</th>
+<th style="text-align:left;">
+par
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right;">
+-11.4
+</td>
+<td style="text-align:right;">
+9.2
+</td>
+<td style="text-align:left;">
+mean
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+1.3
+</td>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:left;">
+sd
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+-10.1
+</td>
+<td style="text-align:right;">
+72.5
+</td>
+<td style="text-align:left;">
+plus
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+-12.7
+</td>
+<td style="text-align:right;">
+1.2
+</td>
+<td style="text-align:left;">
+minus
+</td>
+</tr>
+</tbody>
+</table>
+<div id="itctableCaption" class="table-box">
+<p>Mean and sd values of dG were calculated from the two experiments. <span class="math inline">\(\Delta G = -RTlnK\)</span> was then used to derive the lower and upper bounds for the affinity as mentioned in the ms. dG is in kcal/mol, KD in nM.</p>
+</div>
 <p>Plots were saved as postscript files, and edited into publication-quality figures using Adobe Illustrator.</p>
-<p>I am not a programmer, and this is most probably not efficient code, but the code was useful for data analysis and produced hopefully some understandable and visually appealing figures. If you spot errors please drop me a mail.</p>
+<p>I am not a programmer, and this is most probably not efficient code, but the code was useful for data analysis and produced some understandable and hopefully visually appealing figures. If you spot errors please drop me a message.</p>
 <p>Note that the <code>echo = FALSE</code> parameter was added to the code chunk to prevent printing of the R code that generated the plot.</p>
 </div>
 </div>
