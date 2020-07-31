@@ -8,6 +8,16 @@ site: bookdown::bookdown_site
 bibliography: Ty1.bib
 url: https://www.biorxiv.org/content/10.1101/2020.06.02.130161v1
 ---
+---
+title: 'Octet and ITC data analysis of Ty1:RBD interaction '
+author: '[Tim Schulte]'
+description: 'Analysis of ITC/Octet data associated with the ms: An alpaca nanobody
+  neutralizes SARS-CoV-2 by blocking receptor interaction'
+link-citations: yes
+site: bookdown::bookdown_site
+bibliography: Ty1.bib
+url: https://www.biorxiv.org/content/10.1101/2020.06.02.130161v1
+---
 
 Data  are associated with the [manuscript](https://www.biorxiv.org/content/10.1101/2020.06.02.130161v1) **An alpaca nanobody neutralizes SARS-CoV-2 by blocking receptor interaction** led by my colleagues Leo Hanke within the group of Gerry [McInerney](https://ki.se/en/mtc/gerald-mcinerney-group). The ms just got accepted for publication in [Nature Communications](link). The data were also put on DataDryad with doi:10.5061/dryad.gb5mkkwmz.
  The bookdown document was created based on [bookdown](https://bookdown.org/yihui/bookdown/), and [rtemps](https://github.com/bblodfon/rtemps).
@@ -1146,3 +1156,6 @@ I am not a programmer, and this is most probably not efficient code, but the cod
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
 # References
+
+<!--chapter:end:index.Rmd-->
+

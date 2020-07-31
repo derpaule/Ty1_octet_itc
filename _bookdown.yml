@@ -1,4 +1,4 @@
-book_filename: "Caprin_Octet"
+book_filename: "index"
 output_dir: "docs"
 new_session: true
 delete_merged_file: true
